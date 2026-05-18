@@ -2,23 +2,28 @@
 
 /* Alemmat napit */
 #SaveTextButton {
-  left: 26%;
+  left:10%;
   top: 85%;
   width: 14%;
 }
 
 #ShowTextButton {
-  left: 45%;
-  top: 85%;
-  width: 20%;
-}
-
-#EraseTextButton {
-  left: 68%;
+  left:30%;
   top: 85%;
   width: 14%;
 }
 
+#EraseTextButton {
+  left:50%;
+  top: 85%;
+  width: 14%;
+}
+
+#DownloadTextButton {
+  left:70%;
+  top: 85%;
+  width: 14%;
+}
 
 
 
@@ -27,6 +32,8 @@
 
 
 .div2Buttons {
+
+
   position: absolute;
   height: 8%;
 
@@ -81,4 +88,24 @@
   font-size: min(13cqw, 45cqh);
   line-height: 1;
   white-space: nowrap;
+}
+
+
+.alue2 .div2Buttons {
+
+  height: 8%;
+
+  font-size: 16px;
+
+  line-height: 1;
+  padding: 0;
+
+  
+}
+
+.alue2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3%;
 }
