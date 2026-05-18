@@ -1,0 +1,84 @@
+
+
+/* Alemmat napit */
+#SaveTextButton {
+  left: 26%;
+  top: 85%;
+  width: 14%;
+}
+
+#ShowTextButton {
+  left: 45%;
+  top: 85%;
+  width: 20%;
+}
+
+#EraseTextButton {
+  left: 68%;
+  top: 85%;
+  width: 14%;
+}
+
+
+
+
+
+
+
+
+.div2Buttons {
+  position: absolute;
+  height: 8%;
+
+  font-size: calc(16px / var(--zoom, 1));
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  border: calc(0.5px / var(--zoom, 1)) solid #777;
+  border-radius: calc(3px / var(--zoom, 1));
+
+  background-color: #eeeeee;
+
+  box-shadow: none;
+  outline: none;
+  container-type: size;
+  
+}
+
+
+/* div2-nappien hover-, painallus- ja fokus-efektit */
+
+.div2Buttons {
+  cursor: pointer;
+  
+}
+
+.div2Buttons:hover {
+  background-color: #e0e0e0;
+  border-color: #555;
+}
+
+.div2Buttons:active {
+  background-color: #d0d0d0;
+}
+
+.div2Buttons:focus-visible {
+  outline: calc(2px / var(--zoom, 1)) solid #4a90e2;
+  outline-offset: calc(2px / var(--zoom, 1));
+}
+
+
+.div2Buttons span {
+  font-size: min(13cqw, 45cqh);
+  line-height: 1;
+  white-space: nowrap;
+}
